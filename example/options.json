@@ -1,0 +1,79 @@
+{
+  "layer": {},
+  "events": {
+    "0": [
+      {
+        "location": [
+          5,
+          5
+        ],
+        "type": "default"
+      },
+      {
+        "location": [
+          10,
+          8
+        ],
+        "type": "default"
+      }
+    ]
+  },
+  "eventTypes": {
+    "awesome": {
+      "description": "A package was successfully delivered.",
+      "class": "alert alert-success",
+      "title": "Some Event",
+      "name": "default",
+      "options": {
+        "icon": "flag",
+        "markerColor": "yellow"
+      }
+    }
+  },
+  "objectTypes": {
+    "default": {
+      "status": {
+        "status": {
+          "values": [
+            "f",
+            "l"
+          ],
+          "valueOptions": [
+            {
+              "icon": "star"
+            },
+            {
+              "icon": "glass"
+            }
+          ]
+        }
+      },
+      "type": "awesome",
+      "options": {
+        "icon": "glass",
+        "markerColor": "green"
+      }
+    },
+    "uav": {
+      "status": {},
+      "type": "awesome",
+      "options": {
+        "icon": "star"
+      }
+    },
+    "obstacle": {
+      "options": {
+        "height": 80,
+        "width": 10
+      },
+      "type": "rectangle"
+    },
+    "base": {
+      "options": {
+        "radius": 15
+      },
+      "type": "circle"
+    }
+  },
+  "enableClusters": true
+}

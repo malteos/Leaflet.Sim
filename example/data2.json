@@ -1,0 +1,286 @@
+{
+  "Simulation": {
+    "UseCase": [
+      {
+        "ChargingStation": [
+          {
+            "lx": 5,
+            "y": 21,
+            "x": 10,
+            "ly": 5
+          },
+          {
+            "lx": 5,
+            "y": 31,
+            "x": 1,
+            "ly": 5
+          },
+          {
+            "lx": 5,
+            "y": 41,
+            "x": 3,
+            "ly": 5
+          },
+          {
+            "lx": 5,
+            "y": 11,
+            "x": 4,
+            "ly": 5
+          }
+        ]
+      },
+      {
+        "Building": [
+          {
+            "lx": 5,
+            "y": 22,
+            "x": 10,
+            "ly": 5
+          },
+          {
+            "lx": 5,
+            "y": 32,
+            "x": 20,
+            "ly": 5
+          },
+          {
+            "lx": 5,
+            "y": 42,
+            "x": 50,
+            "ly": 5
+          },
+          {
+            "lx": 5,
+            "y": 12,
+            "x": 80,
+            "ly": 5
+          }
+        ]
+      },
+      {
+        "Wind": [
+          {
+            "lx": 25,
+            "y": 50,
+            "x": 50,
+            "ly": 25
+          }
+        ]
+      },
+      {
+        "UAV": [
+          {
+            "lx": 1,
+            "y": 23,
+            "x": 10,
+            "ly": 1
+          },
+          {
+            "lx": 1,
+            "y": 33,
+            "x": 1,
+            "ly": 1
+          },
+          {
+            "lx": 1,
+            "y": 43,
+            "x": 3,
+            "ly": 1
+          },
+          {
+            "lx": 1,
+            "y": 13,
+            "x": 4,
+            "ly": 1
+          }
+        ]
+      },
+      {
+        "Type": "Delivery"
+      },
+      {
+        "axisX": 200
+      },
+      {
+        "axisY": 200
+      },
+      {
+        "Round": 20
+      },
+      {
+        "Speed": 5
+      },
+      {
+        "Sensors": 3
+      },
+      {
+        "Nr_Sensors": 5
+      }
+    ]
+  },
+  "name": "Default Generator Settings",
+  "ui": {
+    "objectTypes": [
+      {
+        "options": {
+          "height": 1,
+          "width": 1,
+          "fillColor": "#fff",
+          "color": "#990000",
+          "opacity": 0.8
+        },
+        "type": "rectangle",
+        "name": "obstacle",
+        "static": true
+      },
+      {
+        "options": {
+          "radius": 2,
+          "opacity": 0.95
+        },
+        "type": "circle",
+        "name": "base",
+        "static": true
+      },
+      {
+        "type": "awesome",
+        "name": "groundAgent",
+        "options": {
+          "icon": "child"
+        }
+      },
+      {
+        "type": "awesome",
+        "name": "uav",
+        "status": {
+          "status": {
+            "values": [
+              "land",
+              "fly"
+            ],
+            "valueOptions": [
+              {
+                "markerColor": "green"
+              },
+              {
+                "markerColor": "purple"
+              }
+            ]
+          }
+        },
+        "options": {
+          "icon": "plane",
+          "markerColor": "purple"
+        }
+      },
+      {
+        "type": "awesome",
+        "name": "package",
+        "options": {
+          "icon": "gift"
+        }
+      },
+      {
+        "type": "image",
+        "name": "image",
+        "options": {
+          "iconUrl": "/static/assets/images/drone.png",
+          "width": 64,
+          "height": 64
+        }
+      },
+      {
+        "type": "awesome",
+        "name": "spotMarker",
+        "options": {
+          "icon": "dot-circle-o"
+        }
+      },
+      {
+        "type": "awesome",
+        "name": "chargingStation",
+        "static": true,
+        "options": {
+          "icon": "plug",
+          "markerColor": "purple"
+        }
+      }
+    ],
+    "eventTypes": [
+      {
+        "options": {
+          "icon": "flag",
+          "markerColor": "red"
+        },
+        "title": "Drones Crashed Event",
+        "description": "A drone crashed.",
+        "class": "alert alert-danger",
+        "name": "DroneCrashed"
+      },
+      {
+        "options": {
+          "icon": "flag",
+          "markerColor": "green"
+        },
+        "title": "Drones Active Event",
+        "description": "Drone is active.",
+        "class": "alert alert-success",
+        "name": "DroneActive"
+      },
+      {
+        "options": {
+          "icon": "flag",
+          "markerColor": "yellow"
+        },
+        "title": "Drones Inactive Event",
+        "description": "Drone is inactive.",
+        "class": "alert alert-warning",
+        "name": "DroneInactive"
+      },
+      {
+        "options": {
+          "icon": "flag",
+          "markerColor": "yellow"
+        },
+        "title": "Packages Delivered Event",
+        "description": "Packages delivered.",
+        "class": "alert alert-warning",
+        "name": "PackagesDelivered",
+        "_sedatsComment": "deliverdone",
+        "_JSON_does_not_support_comments": ".."
+      },
+      {
+        "options": {
+          "icon": "flag",
+          "markerColor": "red"
+        },
+        "title": "Packages Lost Event",
+        "description": "Packages lost.",
+        "class": "alert alert-danger",
+        "name": "PackagesLost",
+        "_sedatsComment": "deliveredfailed"
+      },
+      {
+        "options": {
+          "icon": "flag",
+          "markerColor": "yellow"
+        },
+        "title": "Packages not found Event",
+        "description": "Packages not found.",
+        "class": "alert alert-warning",
+        "name": "PackagesNotFound",
+        "_sedatsComment": "// wird durch deliver_timed ersetzt"
+      },
+      {
+        "options": {
+          "icon": "flag",
+          "markerColor": "yellow"
+        },
+        "title": "Dummy event",
+        "description": "Replace this dummy with some real content.",
+        "class": "alert alert-warning",
+        "name": "default"
+      }
+    ]
+  }
+}

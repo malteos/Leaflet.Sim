@@ -1,0 +1,982 @@
+[
+  {
+    "title": "Drone #0",
+    "groupIds": [],
+    "color": "darkred",
+    "visualType": "base",
+    "type": "Feature",
+    "geometry": {
+      "type": "MultiPoint",
+      "coordinates": [
+        [
+          30,
+          30
+        ],
+        [
+          32,
+          30
+        ],
+        [
+          34,
+          30
+        ],
+        [
+          36,
+          30
+        ],
+        [
+          38,
+          30
+        ],
+        [
+          40,
+          30
+        ],
+        [
+          42,
+          30
+        ],
+        [
+          44,
+          30
+        ],
+        [
+          46,
+          30
+        ],
+        [
+          48,
+          30
+        ]
+      ]
+    },
+    "properties": {
+      "changes": [
+        {
+          "status": "f"
+        },
+        {
+          "status": "f"
+        },
+        {
+          "status": "f"
+        },
+        {
+          "status": "f"
+        },
+        {
+          "status": "f"
+        },
+        {
+          "status": "f"
+        },
+        {
+          "status": "f"
+        },
+        {
+          "status": "f"
+        },
+        {
+          "status": "f"
+        },
+        {
+          "status": "f"
+        }
+      ],
+      "time": [
+        0,
+        1000,
+        2000,
+        3000,
+        4000,
+        5000,
+        6000,
+        7000,
+        8000,
+        9000
+      ]
+    }
+  },
+  {
+    "title": "Drone #1",
+    "groupIds": [],
+    "color": "darkred",
+    "visualType": "default",
+    "type": "Feature",
+    "geometry": {
+      "type": "MultiPoint",
+      "coordinates": [
+        [
+          99,
+          45
+        ],
+        [
+          103,
+          50
+        ],
+        [
+          107,
+          55
+        ],
+        [
+          111,
+          60
+        ],
+        [
+          115,
+          65
+        ],
+        [
+          119,
+          70
+        ],
+        [
+          123,
+          75
+        ],
+        [
+          127,
+          80
+        ],
+        [
+          131,
+          85
+        ],
+        [
+          135,
+          90
+        ]
+      ]
+    },
+    "properties": {
+      "changes": [
+        {
+          "status": "f"
+        },
+        {
+          "status": "l"
+        },
+        {
+          "status": "f"
+        },
+        {
+          "status": "f"
+        },
+        {
+          "status": "f"
+        },
+        {
+          "status": "f"
+        },
+        {
+          "status": "f"
+        },
+        {
+          "status": "f"
+        },
+        {
+          "status": "f"
+        },
+        {
+          "status": "f"
+        }
+      ],
+      "time": [
+        0,
+        1000,
+        2000,
+        3000,
+        4000,
+        5000,
+        6000,
+        7000,
+        8000,
+        9000
+      ]
+    }
+  },
+  {
+    "title": "Drone #2",
+    "groupIds": [],
+    "color": "darkred",
+    "visualType": "obstacle",
+    "type": "Feature",
+    "geometry": {
+      "type": "MultiPoint",
+      "coordinates": [
+        [
+          55,
+          13
+        ],
+        [
+          58,
+          20
+        ],
+        [
+          61,
+          27
+        ],
+        [
+          64,
+          34
+        ],
+        [
+          67,
+          41
+        ],
+        [
+          70,
+          48
+        ],
+        [
+          73,
+          55
+        ],
+        [
+          76,
+          62
+        ],
+        [
+          79,
+          69
+        ],
+        [
+          82,
+          76
+        ]
+      ]
+    },
+    "properties": {
+      "changes": [
+        {
+          "status": "l"
+        },
+        {
+          "status": "l"
+        },
+        {
+          "status": "l"
+        },
+        {
+          "status": "l"
+        },
+        {
+          "status": "l"
+        },
+        {
+          "status": "l"
+        },
+        {
+          "status": "l"
+        },
+        {
+          "status": "l"
+        },
+        {
+          "status": "l"
+        },
+        {
+          "status": "l"
+        }
+      ],
+      "time": [
+        0,
+        1000,
+        2000,
+        3000,
+        4000,
+        5000,
+        6000,
+        7000,
+        8000,
+        9000
+      ]
+    }
+  },
+  {
+    "title": "Drone #3",
+    "groupIds": [],
+    "color": "darkred",
+    "visualType": "uav",
+    "type": "Feature",
+    "geometry": {
+      "type": "MultiPoint",
+      "coordinates": [
+        [
+          16,
+          73
+        ],
+        [
+          20,
+          81
+        ],
+        [
+          24,
+          89
+        ],
+        [
+          28,
+          97
+        ],
+        [
+          32,
+          105
+        ],
+        [
+          36,
+          113
+        ],
+        [
+          40,
+          121
+        ],
+        [
+          44,
+          129
+        ],
+        [
+          48,
+          137
+        ],
+        [
+          52,
+          145
+        ]
+      ]
+    },
+    "properties": {
+      "changes": [
+        {
+          "status": "f"
+        },
+        {
+          "status": "f"
+        },
+        {
+          "status": "f"
+        },
+        {
+          "status": "f"
+        },
+        {
+          "status": "f"
+        },
+        {
+          "status": "f"
+        },
+        {
+          "status": "f"
+        },
+        {
+          "status": "f"
+        },
+        {
+          "status": "f"
+        },
+        {
+          "status": "f"
+        }
+      ],
+      "time": [
+        0,
+        1000,
+        2000,
+        3000,
+        4000,
+        5000,
+        6000,
+        7000,
+        8000,
+        9000
+      ]
+    }
+  },
+  {
+    "title": "Drone #4",
+    "groupIds": [],
+    "color": "darkred",
+    "visualType": "base",
+    "type": "Feature",
+    "geometry": {
+      "type": "MultiPoint",
+      "coordinates": [
+        [
+          71,
+          66
+        ],
+        [
+          71,
+          73
+        ],
+        [
+          71,
+          80
+        ],
+        [
+          71,
+          87
+        ],
+        [
+          71,
+          94
+        ],
+        [
+          71,
+          101
+        ],
+        [
+          71,
+          108
+        ],
+        [
+          71,
+          115
+        ],
+        [
+          71,
+          122
+        ],
+        [
+          71,
+          129
+        ]
+      ]
+    },
+    "properties": {
+      "changes": [
+        {
+          "status": "l"
+        },
+        {
+          "status": "l"
+        },
+        {
+          "status": "l"
+        },
+        {
+          "status": "l"
+        },
+        {
+          "status": "l"
+        },
+        {
+          "status": "l"
+        },
+        {
+          "status": "l"
+        },
+        {
+          "status": "l"
+        },
+        {
+          "status": "l"
+        },
+        {
+          "status": "l"
+        }
+      ],
+      "time": [
+        0,
+        1000,
+        2000,
+        3000,
+        4000,
+        5000,
+        6000,
+        7000,
+        8000,
+        9000
+      ]
+    }
+  },
+  {
+    "title": "Drone #5",
+    "groupIds": [],
+    "color": "darkred",
+    "visualType": "obstacle",
+    "type": "Feature",
+    "geometry": {
+      "type": "MultiPoint",
+      "coordinates": [
+        [
+          99,
+          12
+        ],
+        [
+          104,
+          13
+        ],
+        [
+          109,
+          14
+        ],
+        [
+          114,
+          15
+        ],
+        [
+          119,
+          16
+        ],
+        [
+          124,
+          17
+        ],
+        [
+          129,
+          18
+        ],
+        [
+          134,
+          19
+        ],
+        [
+          139,
+          20
+        ],
+        [
+          144,
+          21
+        ]
+      ]
+    },
+    "properties": {
+      "changes": [
+        {
+          "status": "f"
+        },
+        {
+          "status": "f"
+        },
+        {
+          "status": "f"
+        },
+        {
+          "status": "f"
+        },
+        {
+          "status": "f"
+        },
+        {
+          "status": "f"
+        },
+        {
+          "status": "f"
+        },
+        {
+          "status": "f"
+        },
+        {
+          "status": "f"
+        },
+        {
+          "status": "f"
+        }
+      ],
+      "time": [
+        0,
+        1000,
+        2000,
+        3000,
+        4000,
+        5000,
+        6000,
+        7000,
+        8000,
+        9000
+      ]
+    }
+  },
+  {
+    "title": "Drone #6",
+    "groupIds": [],
+    "color": "darkred",
+    "visualType": "default",
+    "type": "Feature",
+    "geometry": {
+      "type": "MultiPoint",
+      "coordinates": [
+        [
+          16,
+          49
+        ],
+        [
+          18,
+          56
+        ],
+        [
+          20,
+          63
+        ],
+        [
+          22,
+          70
+        ],
+        [
+          24,
+          77
+        ],
+        [
+          26,
+          84
+        ],
+        [
+          28,
+          91
+        ],
+        [
+          30,
+          98
+        ],
+        [
+          32,
+          105
+        ],
+        [
+          34,
+          112
+        ]
+      ]
+    },
+    "properties": {
+      "changes": [
+        {
+          "status": "l"
+        },
+        {
+          "status": "l"
+        },
+        {
+          "status": "l"
+        },
+        {
+          "status": "l"
+        },
+        {
+          "status": "l"
+        },
+        {
+          "status": "l"
+        },
+        {
+          "status": "l"
+        },
+        {
+          "status": "l"
+        },
+        {
+          "status": "l"
+        },
+        {
+          "status": "l"
+        }
+      ],
+      "time": [
+        0,
+        1000,
+        2000,
+        3000,
+        4000,
+        5000,
+        6000,
+        7000,
+        8000,
+        9000
+      ]
+    }
+  },
+  {
+    "title": "Drone #7",
+    "groupIds": [],
+    "color": "darkred",
+    "visualType": "base",
+    "type": "Feature",
+    "geometry": {
+      "type": "MultiPoint",
+      "coordinates": [
+        [
+          77,
+          19
+        ],
+        [
+          81,
+          25
+        ],
+        [
+          85,
+          31
+        ],
+        [
+          89,
+          37
+        ],
+        [
+          93,
+          43
+        ],
+        [
+          97,
+          49
+        ],
+        [
+          101,
+          55
+        ],
+        [
+          105,
+          61
+        ],
+        [
+          109,
+          67
+        ],
+        [
+          113,
+          73
+        ]
+      ]
+    },
+    "properties": {
+      "changes": [
+        {
+          "status": "f"
+        },
+        {
+          "status": "f"
+        },
+        {
+          "status": "f"
+        },
+        {
+          "status": "f"
+        },
+        {
+          "status": "f"
+        },
+        {
+          "status": "f"
+        },
+        {
+          "status": "f"
+        },
+        {
+          "status": "f"
+        },
+        {
+          "status": "f"
+        },
+        {
+          "status": "f"
+        }
+      ],
+      "time": [
+        0,
+        1000,
+        2000,
+        3000,
+        4000,
+        5000,
+        6000,
+        7000,
+        8000,
+        9000
+      ]
+    }
+  },
+  {
+    "title": "Drone #8",
+    "groupIds": [],
+    "color": "darkred",
+    "visualType": "base",
+    "type": "Feature",
+    "geometry": {
+      "type": "MultiPoint",
+      "coordinates": [
+        [
+          55,
+          80
+        ],
+        [
+          65,
+          87
+        ],
+        [
+          75,
+          94
+        ],
+        [
+          85,
+          101
+        ],
+        [
+          95,
+          108
+        ],
+        [
+          105,
+          115
+        ],
+        [
+          115,
+          122
+        ],
+        [
+          125,
+          129
+        ],
+        [
+          135,
+          136
+        ],
+        [
+          145,
+          143
+        ]
+      ]
+    },
+    "properties": {
+      "changes": [
+        {
+          "status": "l"
+        },
+        {
+          "status": "l"
+        },
+        {
+          "status": "l"
+        },
+        {
+          "status": "l"
+        },
+        {
+          "status": "l"
+        },
+        {
+          "status": "l"
+        },
+        {
+          "status": "l"
+        },
+        {
+          "status": "l"
+        },
+        {
+          "status": "l"
+        },
+        {
+          "status": "l"
+        }
+      ],
+      "time": [
+        0,
+        1000,
+        2000,
+        3000,
+        4000,
+        5000,
+        6000,
+        7000,
+        8000,
+        9000
+      ]
+    }
+  },
+  {
+    "title": "Drone #9",
+    "groupIds": [],
+    "color": "darkred",
+    "visualType": "uav",
+    "type": "Feature",
+    "geometry": {
+      "type": "MultiPoint",
+      "coordinates": [
+        [
+          15,
+          35
+        ],
+        [
+          17,
+          35
+        ],
+        [
+          19,
+          35
+        ],
+        [
+          21,
+          35
+        ],
+        [
+          23,
+          35
+        ],
+        [
+          25,
+          35
+        ],
+        [
+          27,
+          35
+        ],
+        [
+          29,
+          35
+        ],
+        [
+          31,
+          35
+        ],
+        [
+          33,
+          35
+        ]
+      ]
+    },
+    "properties": {
+      "changes": [
+        {
+          "status": "f"
+        },
+        {
+          "status": "f"
+        },
+        {
+          "status": "f"
+        },
+        {
+          "status": "f"
+        },
+        {
+          "status": "f"
+        },
+        {
+          "status": "f"
+        },
+        {
+          "status": "f"
+        },
+        {
+          "status": "f"
+        },
+        {
+          "status": "f"
+        },
+        {
+          "status": "f"
+        }
+      ],
+      "time": [
+        0,
+        1000,
+        2000,
+        3000,
+        4000,
+        5000,
+        6000,
+        7000,
+        8000,
+        9000
+      ]
+    }
+  }
+]
