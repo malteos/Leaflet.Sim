@@ -3,11 +3,11 @@
   "version": "0.0.1",
   "author": "Malte Schwarzer <ms@mieo.de>",
   "contributors": [],
-  "description": "This is a Leaflet plug-in that plays back points that have a time stamp synchronized to a clock.",
-  "homepage": "http://leafletplayback.theoutpost.io/",
+  "description": "This is a framework for location-based simulations with Leaflet maps that can visualize moving markers, which can change their style, and events over time on a map.",
+  "homepage": "https://github.com/mschwarzer/Leaflet.Sim",
   "repository": {
     "type": "git",
-    "url": "git@github.com:hallahan/LeafletPlayback.git"
+    "url": "git@github.com:mschwarzer/Leaflet.Sim.git"
   },
   "devDependencies": {
     "grunt": "~0.4.5",
